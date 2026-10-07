@@ -1,0 +1,9 @@
+=== EXPLICACIÓN GRADE POR AFIRMACIÓN ===
+
+
+--- C001 ---
+Afirmación: RRT temprana no tiene efecto significativo sobre  Mortalidad vs RRT tardía
+Calidad de evidencia: HIGH
+Recomendación: STRONG
+Razonamiento: Evidencia de alta calidad con efecto consistente
+Confianza: Muy confiado en que el efecto real está cerca del estimado

@@ -1,0 +1,22 @@
+{
+  "covariate_results": {
+    "intervention": {
+      "covariate": "intervention",
+      "type": "categorical",
+      "levels": [
+        "Dexametasona",
+        "Hidrocortisona",
+        "Hidrocortisona + Fludrocortisona",
+        "Metilprednisolona",
+        "RRT temprana"
+      ],
+      "level_results": [
+        {
+          "level": "Dexametasona",
+          "n_studies": 2,
+          "effect": -0.1619408778974224,
+          "ci_lower": -0.27196680896062686,
+          "ci_upper": -0.05191494683421796,
+          "se": 0.056135679113879816,
+          "p_value": 0.003916475278736842,
+          "significant": 

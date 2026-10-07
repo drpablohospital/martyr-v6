@@ -1,0 +1,37 @@
+{
+  "covariate_results": {
+    "intervention": {
+      "covariate": "intervention",
+      "error": "Covariable 'intervention' tiene <2 niveles",
+      "levels": [
+        "RRT temprana"
+      ]
+    },
+    "control": {
+      "covariate": "control",
+      "error": "Covariable 'control' tiene <2 niveles",
+      "levels": [
+        "RRT tardía"
+      ]
+    },
+    "outcome": {
+      "covariate": "outcome",
+      "error": "Covariable 'outcome' tiene <2 niveles",
+      "levels": [
+        "Mortalidad"
+      ]
+    },
+    "subgroup": {
+      "covariate": "subgroup",
+      "error": "Covariable 'subgroup' tiene <2 niveles",
+      "levels": [
+        "early"
+      ]
+    }
+  },
+  "summary": {
+    "total_covariates": 4,
+    "significant_interactions": 0,
+    "non_significant": 4
+  }
+}

@@ -1,0 +1,9 @@
+=== EVALUACIÓN GRADE POR AFIRMACIÓN ===
+
+
+--- C001 ---
+Afirmación: RRT temprana no tiene efecto significativo sobre  Mortalidad vs RRT tardía
+Calidad: MODERATE
+Recomendación: CONDITIONAL
+Razonamiento: Evidencia moderate sugiere beneficio pero con incertidumbre
+Downgrades: inconsistency

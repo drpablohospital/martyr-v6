@@ -1,0 +1,5 @@
+study_id,author,year,n_i,n_c,events_i,events_c,effect_measure,rr,rr_ci_lower,rr_ci_upper,subgroup
+TIGHT2015,TIGHT,2015,1500,1500,234,250,RR,0.94,0.81,1.08,strict
+ACCORD2010,ACCORD,2010,5000,5000,890,920,RR,0.97,0.89,1.05,strict
+ADVANCE2012,ADVANCE,2012,5500,5500,1020,1050,RR,0.97,0.90,1.05,strict
+STENO2018,STENO,2018,2000,2000,320,340,RR,0.94,0.82,1.08,strict

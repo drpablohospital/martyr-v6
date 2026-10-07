@@ -1,0 +1,65 @@
+{
+  "claims": [
+    {
+      "claim_id": "C001",
+      "claim_text": "RRT temprana no tiene efecto significativo sobre  Mortalidad vs RRT tardía",
+      "claim_type": "efficacy",
+      "direction": "no_difference",
+      "magnitude": "uncertain",
+      "pooled_effect": 0.9858608366617616,
+      "supporting_studies": [
+        {
+          "study_id": "AKIKI2016",
+          "pmid": "",
+          "author": "Gaudry",
+          "effect_size": 0.98,
+          "ci_lower": 0.83,
+          "ci_upper": 1.16,
+          "n_total": 619.0
+        },
+        {
+          "study_id": "ELAIN2016",
+          "pmid": "",
+          "author": "Zarbock",
+          "effect_size": 0.72,
+          "ci_lower": 0.55,
+          "ci_upper": 0.95,
+          "n_total": 231.0
+        },
+        {
+          "study_id": "STARRT2019",
+          "pmid": "",
+          "author": "STARRT-AKI",
+          "effect_size": 1.0,
+          "ci_lower": 0.92,
+          "ci_upper": 1.09,
+          "n_total": 2927.0
+        },
+        {
+          "study_id": "IDEAL2020",
+          "pmid": "",
+          "author": "IDEAL-ICU",
+          "effect_size": 1.01,
+          "ci_lower": 0.88,
+          "ci_upper": 1.16,
+          "n_total": 980.0
+        }
+      ],
+      "n_supporting": 4,
+      "consistency_score": 0.7,
+      "clinical_significance": "low",
+      "pipeline_metadata": {
+        "i2": 42.83,
+        "p_q": 0.1546,
+        "model_used": "DL",
+        "total_studies": 4
+      }
+    }
+  ],
+  "meta": {
+    "total_claims": 1,
+    "total_studies_analyzed": 4,
+    "extraction_date": "2026-10-06T17:40:21.648497",
+    "version": "1.0"
+  }
+}

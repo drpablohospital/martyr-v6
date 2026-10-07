@@ -1,0 +1,177 @@
+{
+  "claims": [
+    {
+      "claim_id": "C001",
+      "claim_text": "RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía",
+      "claim_type": "efficacy",
+      "direction": "no_difference",
+      "magnitude": "small",
+      "pooled_effect": 0.9258078368223295,
+      "supporting_studies": [
+        {
+          "study_id": "AKIKI2016",
+          "pmid": "",
+          "author": "Gaudry",
+          "effect_size": 0.98,
+          "ci_lower": 0.83,
+          "ci_upper": 1.16,
+          "n_total": 619.0
+        },
+        {
+          "study_id": "ELAIN2016",
+          "pmid": "",
+          "author": "Zarbock",
+          "effect_size": 0.72,
+          "ci_lower": 0.55,
+          "ci_upper": 0.95,
+          "n_total": 231.0
+        },
+        {
+          "study_id": "STARRT2019",
+          "pmid": "",
+          "author": "STARRT-AKI",
+          "effect_size": 1.0,
+          "ci_lower": 0.92,
+          "ci_upper": 1.09,
+          "n_total": 2927.0
+        },
+        {
+          "study_id": "IDEAL2020",
+          "pmid": "",
+          "author": "IDEAL-ICU",
+          "effect_size": 1.01,
+          "ci_lower": 0.88,
+          "ci_upper": 1.16,
+          "n_total": 980.0
+        },
+        {
+          "study_id": "CORTICUS2017",
+          "pmid": "",
+          "author": "Annane",
+          "effect_size": 1.18,
+          "ci_lower": 0.85,
+          "ci_upper": 1.65,
+          "n_total": 300.0
+        },
+        {
+          "study_id": "HYPRESS2018",
+          "pmid": "",
+          "author": "Keh",
+          "effect_size": 1.08,
+          "ci_lower": 0.78,
+          "ci_upper": 1.49,
+          "n_total": 362.0
+        },
+        {
+          "study_id": "APROCCHSS2020",
+          "pmid": "",
+          "author": "Annane",
+          "effect_size": 0.97,
+          "ci_lower": 0.82,
+          "ci_upper": 1.14,
+          "n_total": 1246.0
+        },
+        {
+          "study_id": "COIITSS2021",
+          "pmid": "",
+          "author": "Meduri",
+          "effect_size": 1.14,
+          "ci_lower": 0.72,
+          "ci_upper": 1.8,
+          "n_total": 192.0
+        },
+        {
+          "study_id": "DOSCORT2022",
+          "pmid": "",
+          "author": "Moreno",
+          "effect_size": 1.16,
+          "ci_lower": 0.77,
+          "ci_upper": 1.74,
+          "n_total": 238.0
+        },
+        {
+          "study_id": "RECOVERY2020",
+          "pmid": "",
+          "author": "RECOVERY",
+          "effect_size": 0.83,
+          "ci_lower": 0.74,
+          "ci_upper": 0.93,
+          "n_total": 5946.0
+        }
+      ],
+      "n_supporting": 10,
+      "consistency_score": 0.7,
+      "clinical_significance": "low",
+      "pipeline_metadata": {
+        "i2": 38.88,
+        "p_q": 0.0988,
+        "model_used": "DL",
+        "total_studies": 10
+      }
+    },
+    {
+      "claim_id": "C_early",
+      "claim_text": "En subgrupo early: efecto 0.93",
+      "claim_type": "subgroup",
+      "subgroup": "early",
+      "pooled_effect": 0.9275,
+      "n_studies": 4,
+      "supporting_studies": [
+        "AKIKI2016",
+        "ELAIN2016",
+        "STARRT2019",
+        "IDEAL2020"
+      ],
+      "pipeline_metadata": {
+        "i2": 38.88,
+        "p_q": 0.0988,
+        "model_used": "DL",
+        "total_studies": 10
+      }
+    },
+    {
+      "claim_id": "C_septic",
+      "claim_text": "En subgrupo septic: efecto 1.09",
+      "claim_type": "subgroup",
+      "subgroup": "septic",
+      "pooled_effect": 1.0925,
+      "n_studies": 4,
+      "supporting_studies": [
+        "CORTICUS2017",
+        "HYPRESS2018",
+        "APROCCHSS2020",
+        "COIITSS2021"
+      ],
+      "pipeline_metadata": {
+        "i2": 38.88,
+        "p_q": 0.0988,
+        "model_used": "DL",
+        "total_studies": 10
+      }
+    },
+    {
+      "claim_id": "C_COVID",
+      "claim_text": "En subgrupo COVID: efecto 0.99",
+      "claim_type": "subgroup",
+      "subgroup": "COVID",
+      "pooled_effect": 0.9949999999999999,
+      "n_studies": 2,
+      "supporting_studies": [
+        "DOSCORT2022",
+        "RECOVERY2020"
+      ],
+      "pipeline_metadata": {
+        "i2": 38.88,
+        "p_q": 0.0988,
+        "model_used": "DL",
+        "total_studies": 10
+      }
+    }
+  ],
+  "meta": {
+    "total_claims": 4,
+    "total_studies_analyzed": 10,
+    "extraction_date": "2026-10-06T17:41:55.947844",
+    "version": "1.0"
+  }
+}

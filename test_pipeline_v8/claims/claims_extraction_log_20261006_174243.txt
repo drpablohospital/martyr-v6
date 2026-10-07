@@ -1,0 +1,38 @@
+=== LOG DE EXTRACCIÓN DE AFIRMACIONES ===
+
+Fecha: 2026-10-06T17:42:43.544302
+Estudios analizados: 10
+Afirmaciones generadas: 4
+
+
+--- C001 ---
+Tipo: efficacy
+Afirmación: RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía
+Dirección: no_difference
+Magnitud: small
+Estudios de soporte: 10
+Consistencia: 0.70
+
+--- C_early ---
+Tipo: subgroup
+Afirmación: En subgrupo early: efecto 0.93
+Dirección: N/A
+Magnitud: N/A
+Estudios de soporte: 0
+Consistencia: 0.00
+
+--- C_septic ---
+Tipo: subgroup
+Afirmación: En subgrupo septic: efecto 1.09
+Dirección: N/A
+Magnitud: N/A
+Estudios de soporte: 0
+Consistencia: 0.00
+
+--- C_COVID ---
+Tipo: subgroup
+Afirmación: En subgrupo COVID: efecto 0.99
+Dirección: N/A
+Magnitud: N/A
+Estudios de soporte: 0
+Consistencia: 0.00

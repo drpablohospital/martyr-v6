@@ -1,0 +1,30 @@
+=== EVALUACIÓN GRADE POR AFIRMACIÓN ===
+
+
+--- C001 ---
+Afirmación: RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía
+Calidad: MODERATE
+Recomendación: CONDITIONAL
+Razonamiento: Evidencia moderate sugiere beneficio pero con incertidumbre
+Downgrades: inconsistency
+
+--- C_early ---
+Afirmación: En subgrupo early: efecto 0.93
+Calidad: MODERATE
+Recomendación: WEAK
+Razonamiento: Evidencia muy limitada (moderate), no se puede recomendar con confianza
+Downgrades: imprecision
+
+--- C_septic ---
+Afirmación: En subgrupo septic: efecto 1.09
+Calidad: MODERATE
+Recomendación: WEAK
+Razonamiento: Evidencia muy limitada (moderate), no se puede recomendar con confianza
+Downgrades: imprecision
+
+--- C_COVID ---
+Afirmación: En subgrupo COVID: efecto 0.99
+Calidad: MODERATE
+Recomendación: WEAK
+Razonamiento: Evidencia muy limitada (moderate), no se puede recomendar con confianza
+Downgrades: imprecision

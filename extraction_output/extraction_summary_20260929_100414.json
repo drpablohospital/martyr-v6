@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-09-29T10:04:14.211939",
+  "investigators": [
+    "Alice",
+    "Bob"
+  ],
+  "total_studies": 3,
+  "studies_with_both": 3,
+  "icc": {
+    "n_intervention": {
+      "icc": 1.0,
+      "ci_95": [
+        1.0,
+        1
+      ],
+      "n_pairs": 3,
+      "interpretation": "Excellent (\u22650.90)",
+      "acceptable": true
+    },
+    "n_control": {
+      "icc": 1.0,
+      "ci_95": [
+        1.0,
+        1
+      ],
+      "n_pairs": 3,
+      "interpretation": "Excellent (\u22650.90)",
+      "acceptable": true
+    },
+    "events_intervention": {
+      "icc": 0.9931,
+      "ci_95": [
+        0.9863,
+        0.9999
+      ],
+      "n_pairs": 3,
+      "interpretation": "Excellent (\u22650.90)",
+      "acceptable": true
+    },
+    "events_control": {
+      "icc": 0.9971,
+      "ci_95": [
+        0.9942,
+        0.9999
+      ],
+      "n_pairs": 3,
+      "interpretation": "Excellent (\u22650.90)",
+      "acceptable": true
+    },
+    "reported_effect": {
+      "icc": 0.8819,
+      "ci_95": [
+        0.7588,
+        1
+      ],
+      "n_pairs": 3,
+      "interpretation": "Good (0.75-0.90)",
+      "acceptable": true
+    },
+    "follow_up_months": {
+      "icc": 1.0,
+      "ci_95": [
+        1.0,
+        1
+      ],
+      "n_pairs": 3,
+      "interpretation": "Excellent (\u22650.90)",
+      "acceptable": true
+    }
+  },
+  "discrepancies_found": 0,
+  "fields_evaluated": [
+    "n_intervention",
+    "n_control",
+    "events_intervention",
+    "events_control",
+    "reported_effect",
+    "follow_up_months"
+  ]
+}

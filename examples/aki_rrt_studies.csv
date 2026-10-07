@@ -1,0 +1,5 @@
+study_id,author,year,intervention,control,outcome,n_i,n_c,events_i,events_c,effect_measure,rr,rr_ci_lower,rr_ci_upper,subgroup
+AKIKI2016,Gaudry,2016,RRT temprana,RRT tardía,Mortalidad,311,308,150,153,RR,0.98,0.83,1.16,early
+ELAIN2016,Zarbock,2016,RRT temprana,RRT tardía,Mortalidad,112,119,44,65,RR,0.72,0.55,0.95,early
+STARRT2019,STARRT-AKI,2019,RRT temprana,RRT tardía,Mortalidad,1465,1462,643,639,RR,1.00,0.92,1.09,early
+IDEAL2020,IDEAL-ICU,2020,RRT temprana,RRT tardía,Mortalidad,488,492,239,238,RR,1.01,0.88,1.16,early

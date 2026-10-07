@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+test_output*/
+test_search*/
+output/
+signoffs/*.sig
+.pytest_cache/

@@ -1,0 +1,14 @@
+=== LOG DE EXTRACCIÓN DE AFIRMACIONES ===
+
+Fecha: 2026-10-06T17:22:02.337302
+Estudios analizados: 4
+Afirmaciones generadas: 1
+
+
+--- C001 ---
+Tipo: efficacy
+Afirmación: Gaudry no tiene efecto significativo sobre  mortalidad vs early
+Dirección: no_difference
+Magnitud: uncertain
+Estudios de soporte: 4
+Consistencia: 1.00

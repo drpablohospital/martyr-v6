@@ -1,0 +1,59 @@
+{
+  "claims": [
+    {
+      "claim_id": "C001",
+      "claim_text": "Gaudry no tiene efecto significativo sobre  mortalidad vs early",
+      "claim_type": "efficacy",
+      "direction": "no_difference",
+      "magnitude": "uncertain",
+      "pooled_effect": 0.9858608366617616,
+      "supporting_studies": [
+        {
+          "study_id": "AKIKI2016",
+          "pmid": "",
+          "author": "Gaudry",
+          "effect_size": 0.98,
+          "ci_lower": 0.83,
+          "ci_upper": 1.16,
+          "n_total": 619.0
+        },
+        {
+          "study_id": "ELAIN2016",
+          "pmid": "",
+          "author": "Zarbock",
+          "effect_size": 0.72,
+          "ci_lower": 0.55,
+          "ci_upper": 0.95,
+          "n_total": 231.0
+        },
+        {
+          "study_id": "STARRT2019",
+          "pmid": "",
+          "author": "STARRT-AKI",
+          "effect_size": 1.0,
+          "ci_lower": 0.92,
+          "ci_upper": 1.09,
+          "n_total": 2927.0
+        },
+        {
+          "study_id": "IDEAL2020",
+          "pmid": "",
+          "author": "IDEAL-ICU",
+          "effect_size": 1.01,
+          "ci_lower": 0.88,
+          "ci_upper": 1.16,
+          "n_total": 980.0
+        }
+      ],
+      "n_supporting": 4,
+      "consistency_score": 1.0,
+      "clinical_significance": "low"
+    }
+  ],
+  "meta": {
+    "total_claims": 1,
+    "total_studies_analyzed": 4,
+    "extraction_date": "2026-10-06T17:22:02.337302",
+    "version": "1.0"
+  }
+}

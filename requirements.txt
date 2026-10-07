@@ -1,0 +1,27 @@
+# Martyr v6.0 — Dependencias Python
+# Meta-análisis médico PRISMA 2020 completo
+
+# Computación científica y estadística
+scipy>=1.17.0,<2.0
+statsmodels>=0.14.0,<1.0
+numpy>=2.4.0,<3.0
+
+# Manipulación de datos
+pandas>=2.3.0,<3.0
+
+# Visualización
+matplotlib>=3.10.0,<4.0
+
+# Análisis de supervivencia (Kaplan-Meier)
+lifelines>=0.30.0,<1.0
+
+# Tablas formateadas (para reportes CLI)
+tabulate>=0.10.0,<1.0
+
+# HTTP requests (PubMed E-utilities, ClinicalTrials.gov)
+requests>=2.31.0,<3.0
+
+# Opcionales para desarrollo
+# pytest>=8.0.0          # Testing (no instalado por defecto)
+# flake8>=7.0.0          # Linting (no instalado por defecto)
+# mypy>=1.10.0           # Type checking (no instalado por defecto)

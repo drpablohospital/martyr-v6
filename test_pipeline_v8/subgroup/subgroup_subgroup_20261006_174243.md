@@ -1,0 +1,8 @@
+## Análisis de Subgrupos: subgroup
+
+**Q-between:** 0.00 (df=0, p=1.000)
+
+*Interpretación: N/A*
+
+| Subgrupo | N estudios | Efecto | IC 95% | p |
+|----------|-----------|--------|--------|---|

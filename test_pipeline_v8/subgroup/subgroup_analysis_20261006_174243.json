@@ -1,0 +1,325 @@
+{
+  "covariate_results": {
+    "intervention": {
+      "covariate": "intervention",
+      "type": "categorical",
+      "levels": [
+        "Dexametasona",
+        "Hidrocortisona",
+        "Hidrocortisona + Fludrocortisona",
+        "Metilprednisolona",
+        "RRT temprana"
+      ],
+      "level_results": [
+        {
+          "level": "Dexametasona",
+          "n_studies": 2,
+          "effect": -0.1619408778974224,
+          "ci_lower": -0.27196680896062686,
+          "ci_upper": -0.05191494683421796,
+          "se": 0.056135679113879816,
+          "p_value": 0.003916475278736842,
+          "significant": true
+        },
+        {
+          "level": "Hidrocortisona",
+          "n_studies": 2,
+          "effect": 0.12015293941145848,
+          "ci_lower": -0.11146636207208545,
+          "ci_upper": 0.3517722408950024,
+          "se": 0.11817311300180813,
+          "p_value": 0.3092706549216686,
+          "significant": false
+        },
+        {
+          "level": "Hidrocortisona + Fludrocortisona",
+          "n_studies": 1,
+          "effect": null,
+          "ci_lower": null,
+          "ci_upper": null,
+          "se": null,
+          "p_value": null,
+          "note": "Insuficientes estudios (n<2)"
+        },
+        {
+          "level": "Metilprednisolona",
+          "n_studies": 1,
+          "effect": null,
+          "ci_lower": null,
+          "ci_upper": null,
+          "se": null,
+          "p_value": null,
+          "note": "Insuficientes estudios (n<2)"
+        },
+        {
+          "level": "RRT temprana",
+          "n_studies": 4,
+          "effect": -0.01911068782901281,
+          "ci_lower": -0.08357594329822096,
+          "ci_upper": 0.04535456764019535,
+          "se": 0.03289043646388171,
+          "p_value": 0.561212908548633,
+          "significant": false
+        }
+      ],
+      "Q_between": 6.9109945858840085,
+      "df_between": 2,
+      "p_between": 0.03157160011770466,
+      "significant": true,
+      "interpretation": "Diferencia significativa entre subgrupos (p=0.032). El efecto varía según la covariable."
+    },
+    "control": {
+      "covariate": "control",
+      "type": "categorical",
+      "levels": [
+        "Placebo",
+        "RRT tardía"
+      ],
+      "level_results": [
+        {
+          "level": "Placebo",
+          "n_studies": 6,
+          "effect": -0.08144945586063186,
+          "ci_lower": -0.16511542165757684,
+          "ci_upper": 0.0022165099363131158,
+          "se": 0.04268671724333928,
+          "p_value": 0.05638152987034628,
+          "significant": false
+        },
+        {
+          "level": "RRT tardía",
+          "n_studies": 4,
+          "effect": -0.01911068782901281,
+          "ci_lower": -0.08357594329822096,
+          "ci_upper": 0.04535456764019535,
+          "se": 0.03289043646388171,
+          "p_value": 0.561212908548633,
+          "significant": false
+        }
+      ],
+      "Q_between": 1.3382254786285839,
+      "df_between": 1,
+      "p_between": 0.2473471511932791,
+      "significant": false,
+      "interpretation": "Sin diferencia significativa entre subgrupos (p=0.247). Efecto consistente."
+    },
+    "outcome": {
+      "covariate": "outcome",
+      "error": "Covariable 'outcome' tiene <2 niveles",
+      "levels": [
+        "Mortalidad"
+      ]
+    },
+    "subgroup": {
+      "covariate": "subgroup",
+      "type": "categorical",
+      "levels": [
+        "COVID",
+        "early",
+        "septic"
+      ],
+      "level_results": [
+        {
+          "level": "COVID",
+          "n_studies": 2,
+          "effect": -0.1619408778974224,
+          "ci_lower": -0.27196680896062686,
+          "ci_upper": -0.05191494683421796,
+          "se": 0.056135679113879816,
+          "p_value": 0.003916475278736842,
+          "significant": true
+        },
+        {
+          "level": "early",
+          "n_studies": 4,
+          "effect": -0.01911068782901281,
+          "ci_lower": -0.08357594329822096,
+          "ci_upper": 0.04535456764019535,
+          "se": 0.03289043646388171,
+          "p_value": 0.561212908548633,
+          "significant": false
+        },
+        {
+          "level": "septic",
+          "n_studies": 4,
+          "effect": 0.02890527896706695,
+          "ci_lower": -0.09992434467213997,
+          "ci_upper": 0.15773490260627387,
+          "se": 0.0657293998159219,
+          "p_value": 0.6601096397207771,
+          "significant": false
+        }
+      ],
+      "Q_between": 6.213005886178469,
+      "df_between": 2,
+      "p_between": 0.044757200459178303,
+      "significant": true,
+      "interpretation": "Diferencia significativa entre subgrupos (p=0.045). El efecto varía según la covariable."
+    },
+    "dose": {
+      "covariate": "dose",
+      "type": "categorical",
+      "levels": [
+        "120",
+        "16",
+        "200",
+        "50",
+        "6",
+        "8"
+      ],
+      "level_results": [
+        {
+          "level": "120",
+          "n_studies": 1,
+          "effect": null,
+          "ci_lower": null,
+          "ci_upper": null,
+          "se": null,
+          "p_value": null,
+          "note": "Insuficientes estudios (n<2)"
+        },
+        {
+          "level": "16",
+          "n_studies": 1,
+          "effect": null,
+          "ci_lower": null,
+          "ci_upper": null,
+          "se": null,
+          "p_value": null,
+          "note": "Insuficientes estudios (n<2)"
+        },
+        {
+          "level": "200",
+          "n_studies": 1,
+          "effect": null,
+          "ci_lower": null,
+          "ci_upper": null,
+          "se": null,
+          "p_value": null,
+          "note": "Insuficientes estudios (n<2)"
+        },
+        {
+          "level": "50",
+          "n_studies": 2,
+          "effect": 0.008325861528919442,
+          "ci_lower": -0.13921409919975145,
+          "ci_upper": 0.15586582225759035,
+          "se": 0.07527549016768924,
+          "p_value": 0.9119294144762042,
+          "significant": false
+        },
+        {
+          "level": "6",
+          "n_studies": 3,
+          "effect": -0.11917319535757258,
+          "ci_lower": -0.21111319479691304,
+          "ci_upper": -0.027233195918232103,
+          "se": 0.04690816297925535,
+          "p_value": 0.011067380116811298,
+          "significant": true
+        },
+        {
+          "level": "8",
+          "n_studies": 2,
+          "effect": -0.028841991491814715,
+          "ci_lower": -0.10981441703712373,
+          "ci_upper": 0.05213043405349431,
+          "se": 0.04131246201291277,
+          "p_value": 0.4850879910981494,
+          "significant": false
+        }
+      ],
+      "Q_between": 2.9743832658526532,
+      "df_between": 2,
+      "p_between": 0.22600647426580955,
+      "significant": false,
+      "interpretation": "Sin diferencia significativa entre subgrupos (p=0.226). Efecto consistente."
+    },
+    "study_design": {
+      "covariate": "study_design",
+      "type": "categorical",
+      "levels": [
+        "Cohorte",
+        "RCT"
+      ],
+      "level_results": [
+        {
+          "level": "Cohorte",
+          "n_studies": 2,
+          "effect": 0.14073555281652242,
+          "ci_lower": -0.16380014400542828,
+          "ci_upper": 0.4452712496384731,
+          "se": 0.1553753555214034,
+          "p_value": 0.3650534561878471,
+          "significant": false
+        },
+        {
+          "level": "RCT",
+          "n_studies": 8,
+          "effect": -0.04762957769626217,
+          "ci_lower": -0.0994281712757607,
+          "ci_upper": 0.00416901588323635,
+          "se": 0.026427853867091084,
+          "p_value": 0.07150621180621397,
+          "significant": false
+        }
+      ],
+      "Q_between": 1.4284025249466783,
+      "df_between": 1,
+      "p_between": 0.23202532425190447,
+      "significant": false,
+      "interpretation": "Sin diferencia significativa entre subgrupos (p=0.232). Efecto consistente."
+    },
+    "population": {
+      "covariate": "population",
+      "type": "categorical",
+      "levels": [
+        "COVID",
+        "general",
+        "septic"
+      ],
+      "level_results": [
+        {
+          "level": "COVID",
+          "n_studies": 2,
+          "effect": -0.1619408778974224,
+          "ci_lower": -0.27196680896062686,
+          "ci_upper": -0.05191494683421796,
+          "se": 0.056135679113879816,
+          "p_value": 0.003916475278736842,
+          "significant": true
+        },
+        {
+          "level": "general",
+          "n_studies": 4,
+          "effect": -0.01911068782901281,
+          "ci_lower": -0.08357594329822096,
+          "ci_upper": 0.04535456764019535,
+          "se": 0.03289043646388171,
+          "p_value": 0.561212908548633,
+          "significant": false
+        },
+        {
+          "level": "septic",
+          "n_studies": 4,
+          "effect": 0.02890527896706695,
+          "ci_lower": -0.09992434467213997,
+          "ci_upper": 0.15773490260627387,
+          "se": 0.0657293998159219,
+          "p_value": 0.6601096397207771,
+          "significant": false
+        }
+      ],
+      "Q_between": 6.213005886178469,
+      "df_between": 2,
+      "p_between": 0.044757200459178303,
+      "significant": true,
+      "interpretation": "Diferencia significativa entre subgrupos (p=0.045). El efecto varía según la covariable."
+    }
+  },
+  "summary": {
+    "total_covariates": 7,
+    "significant_interactions": 3,
+    "non_significant": 4
+  }
+}

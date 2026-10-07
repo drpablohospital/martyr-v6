@@ -1,0 +1,57 @@
+{
+  "topic": "Corticosteroids in COVID-19",
+  "timestamp": "20260929_102031",
+  "meta_analysis": {
+    "k": 4,
+    "model": "DL",
+    "pooled_effect": 0.5817,
+    "ci_95": [
+      0.5026,
+      0.6732
+    ],
+    "se": 0.0746,
+    "z_value": -7.2655,
+    "p_value": 0.0,
+    "heterogeneity": {
+      "Q": 0.0636,
+      "df": 3,
+      "p_Q": 0.9958,
+      "I2": 0.0,
+      "tau2": 0.0,
+      "H": 0.1456
+    },
+    "weights": [
+      18.103845415656174,
+      26.22772704934146,
+      34.98561496481152,
+      20.682812570190855
+    ],
+    "flags": [
+      "{'id': 'WEIGHT_DOMINANCE', 'level': 'yellow', 'value': 34.9856, 'rule': 'Un estudio > 30% del peso', 'action': 'Verificar sensibilidad sin USA2020; reportar como limitaci\u00f3n'}"
+    ],
+    "studies": [
+      "NICE2018",
+      "UK2019",
+      "USA2020",
+      "CANADA2021"
+    ]
+  },
+  "subgroup": {
+    "status": "placeholder",
+    "message": "Requires covariate data"
+  },
+  "publication_bias": {
+    "status": "placeholder",
+    "message": "Requires effect standard errors"
+  },
+  "grade": {
+    "rating": "high",
+    "explanation": "Dise\u00f1o base: RCT\nCerteza inicial: high\n\nCerteza final: high"
+  },
+  "amstar": {
+    "status": "placeholder",
+    "message": "Requires manual evaluation"
+  },
+  "manuscript": "test_themes/output_covid/manuscript_20260929_102031.md",
+  "output_dir": "test_themes/output_covid"
+}

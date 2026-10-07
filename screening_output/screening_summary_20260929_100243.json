@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-09-29T10:02:43.289174",
+  "investigators": [
+    "Alice",
+    "Bob"
+  ],
+  "total_studies": 10,
+  "kappa": {
+    "kappa": 0.5833,
+    "observed_agreement": 0.8,
+    "expected_agreement": 0.52,
+    "total_evaluated": 10,
+    "both_include": 5,
+    "both_exclude": 3,
+    "conflict_include_exclude": 2,
+    "maybes": 0,
+    "interpretation": "Moderate (0.41-0.60)",
+    "acceptable": false
+  },
+  "conflicts": 2,
+  "resolved": 2,
+  "pending": 0,
+  "final_included": 2,
+  "final_excluded": 0
+}

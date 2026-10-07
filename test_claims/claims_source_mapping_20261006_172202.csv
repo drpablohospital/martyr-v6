@@ -1,0 +1,5 @@
+claim_id,claim_text,study_id,pmid,effect_size,weight
+C001,Gaudry no tiene efecto significativo sobre  mortalidad vs early...,AKIKI2016,,0.98,
+C001,Gaudry no tiene efecto significativo sobre  mortalidad vs early...,ELAIN2016,,0.72,
+C001,Gaudry no tiene efecto significativo sobre  mortalidad vs early...,STARRT2019,,1.0,
+C001,Gaudry no tiene efecto significativo sobre  mortalidad vs early...,IDEAL2020,,1.01,

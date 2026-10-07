@@ -1,0 +1,89 @@
+[
+  {
+    "timestamp": "2026-10-06T17:32:59.236180",
+    "event": "pipeline_init",
+    "data": {
+      "topic": "Timing RRT in AKI",
+      "pico": "P:ICU AKI;I:early RRT;C:late RRT;O:mortality"
+    }
+  },
+  {
+    "timestamp": "2026-10-06T17:32:59.239346",
+    "event": "meta_analysis_complete",
+    "data": {
+      "k": 4,
+      "model": "DL",
+      "pooled_effect": 0.9686,
+      "ci_95": [
+        0.8824,
+        1.0632
+      ],
+      "se": 0.0475,
+      "z_value": -0.6712,
+      "p_value": 0.5021,
+      "heterogeneity": {
+        "Q": 5.2473,
+        "df": 3,
+        "p_Q": 0.1546,
+        "I2": 42.83,
+        "tau2": 0.0038,
+        "H": 1.3225
+      },
+      "weights": [
+        21.592543942144285,
+        9.323143534801213,
+        41.009544716299914,
+        28.07476780675459
+      ],
+      "flags": [
+        "{'id': 'WEIGHT_DOMINANCE', 'level': 'yellow', 'value': 41.0095, 'rule': 'Un estudio > 30% del peso', 'action': 'Verificar sensibilidad sin STARRT2019; reportar como limitaci\u00f3n'}",
+        "{'id': 'PI_CROSSES_NULL', 'level': 'yellow', 'value': '-0.184 to 0.1202', 'rule': '95% PI cruza valor nulo', 'action': 'Reportar PI expl\u00edcitamente; el efecto no es generalizable'}"
+      ],
+      "studies": [
+        "AKIKI2016",
+        "ELAIN2016",
+        "STARRT2019",
+        "IDEAL2020"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-10-06T17:32:59.241700",
+    "event": "claim_extraction_complete",
+    "data": {
+      "claims_generated": 1,
+      "files": {
+        "claims_file": "test_pipeline_v2/claims/claims_extracted_20261006_173259.json",
+        "log_file": "test_pipeline_v2/claims/claims_extraction_log_20261006_173259.txt",
+        "mapping_file": "test_pipeline_v2/claims/claims_source_mapping_20261006_173259.csv"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-06T17:32:59.242734",
+    "event": "claim_grade_complete",
+    "data": {
+      "evaluations": 1,
+      "files": {
+        "grade": "test_pipeline_v2/grade/grade_claim_level_20261006_173259.json",
+        "explanation": "test_pipeline_v2/grade/grade_explanation_20261006_173259.txt",
+        "table": "test_pipeline_v2/grade/grade_table_20261006_173259.md"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-06T17:32:59.243090",
+    "event": "grade_complete",
+    "data": {
+      "rating": "low",
+      "explanation": "Dise\u00f1o base: RCT\nCerteza inicial: high\n\nFactores que reducen certeza:\n  - inconsistency: I\u00b2 = 42.83% (-1)\n  - imprecision: Intervalo de confianza cruza el valor nulo (-1)\n\nCerteza final: low"
+    }
+  },
+  {
+    "timestamp": "2026-10-06T17:32:59.244133",
+    "event": "manuscript_generated",
+    "data": {
+      "path": "test_pipeline_v2/manuscript_20261006_173259.md"
+    }
+  }
+]

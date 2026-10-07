@@ -1,0 +1,137 @@
+{
+  "overall": {
+    "rating": "high",
+    "rating_display": "Alta calidad",
+    "critical_flaws": 0,
+    "critical_flaw_codes": [],
+    "non_critical_flaws": 1,
+    "non_critical_flaw_codes": [
+      "C16"
+    ],
+    "total_criteria_evaluated": 16,
+    "recommendation": "Revisión confiable. Resultados pueden guiar práctica clínica."
+  },
+  "criteria": [
+    {
+      "code": "C2",
+      "description": "¿Se estableció un protocolo de revisión antes de realizarla?",
+      "is_critical": true,
+      "status": "yes",
+      "notes": "Protocolo registrado en PROSPERO"
+    },
+    {
+      "code": "C4",
+      "description": "¿La estrategia de búsqueda fue apropiada y exhaustiva?",
+      "is_critical": true,
+      "status": "yes",
+      "notes": "Búsqueda en 4 bases/incluyendo registros de trials"
+    },
+    {
+      "code": "C7",
+      "description": "¿Se realizó extracción de datos en duplicado?",
+      "is_critical": true,
+      "status": "yes",
+      "notes": "Extracción doble con ICC"
+    },
+    {
+      "code": "C9",
+      "description": "¿Se evaluó el riesgo de sesgo de los estudios incluidos?",
+      "is_critical": true,
+      "status": "yes",
+      "notes": "RoB 2.0 / ROBINS-I aplicado"
+    },
+    {
+      "code": "C11",
+      "description": "¿Se utilizaron métodos apropiados para el meta-análisis?",
+      "is_critical": true,
+      "status": "yes",
+      "notes": "Método robusto: DL"
+    },
+    {
+      "code": "C13",
+      "description": "¿Se investigaron las fuentes de heterogeneidad?",
+      "is_critical": true,
+      "status": "yes",
+      "notes": "Subgrupos y meta-regresión explorados"
+    },
+    {
+      "code": "C15",
+      "description": "¿Se investigó el sesgo de publicación?",
+      "is_critical": true,
+      "status": "yes",
+      "notes": "Egger/PET-PEESE/trim-fill aplicados"
+    },
+    {
+      "code": "C1",
+      "description": "¿Se planteó la pregunta de investigación de forma apropiada?",
+      "is_critical": false,
+      "status": "yes",
+      "notes": "Pregunta estructurada con PICO"
+    },
+    {
+      "code": "C3",
+      "description": "¿Se justificaron las exclusiones de estudios?",
+      "is_critical": false,
+      "status": "partial",
+      "notes": "Requiere revisión manual de justificaciones"
+    },
+    {
+      "code": "C5",
+      "description": "¿Se realizó selección de estudios en duplicado?",
+      "is_critical": false,
+      "status": "yes",
+      "notes": "Screening doble ciego con κ"
+    },
+    {
+      "code": "C6",
+      "description": "¿Se describieron las características de los estudios incluidos?",
+      "is_critical": false,
+      "status": "partial",
+      "notes": "Tabla de características generada, requiere revisión"
+    },
+    {
+      "code": "C8",
+      "description": "¿Se describieron los métodos de síntesis de forma adecuada?",
+      "is_critical": false,
+      "status": "yes",
+      "notes": "Meta-análisis con modelo DL"
+    },
+    {
+      "code": "C10",
+      "description": "¿Se reportaron las fuentes de financiamiento de los estudios?",
+      "is_critical": false,
+      "status": "partial",
+      "notes": "Parcialmente reportado"
+    },
+    {
+      "code": "C12",
+      "description": "¿Se consideraron el riesgo de sesgo al interpretar resultados?",
+      "is_critical": false,
+      "status": "yes",
+      "notes": "Considerado en discusión"
+    },
+    {
+      "code": "C14",
+      "description": "¿Los resultados se presentaron con moderación apropiada?",
+      "is_critical": false,
+      "status": "partial",
+      "notes": "Limitaciones y generalizabilidad discutidas"
+    },
+    {
+      "code": "C16",
+      "description": "¿Se reportaron los conflictos de interés de la revisión?",
+      "is_critical": false,
+      "status": "no",
+      "notes": "No reportados"
+    }
+  ],
+  "summary": {
+    "total": 16,
+    "critical": 7,
+    "non_critical": 9,
+    "yes": 11,
+    "partial": 4,
+    "no": 1,
+    "na": 0
+  }
+}

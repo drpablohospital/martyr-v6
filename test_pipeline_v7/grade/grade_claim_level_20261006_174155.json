@@ -1,0 +1,92 @@
+{
+  "claim_grades": [
+    {
+      "claim_id": "C001",
+      "claim_text": "RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía",
+      "study_design": "RCT",
+      "base_rating": "high",
+      "downgrades": [
+        {
+          "factor": "inconsistency",
+          "severity": 1,
+          "reason": "Inconsistencia moderada (consistencia=70%, I²=38.88%)"
+        }
+      ],
+      "upgrades": [],
+      "final_rating": "moderate",
+      "total_downgrades": 1,
+      "total_upgrades": 0,
+      "recommendation_strength": "conditional",
+      "recommendation_rationale": "Evidencia moderate sugiere beneficio pero con incertidumbre",
+      "confidence_statement": "Moderadamente confiado; el efecto real puede ser sustancialmente diferente"
+    },
+    {
+      "claim_id": "C_early",
+      "claim_text": "En subgrupo early: efecto 0.93",
+      "study_design": "RCT",
+      "base_rating": "high",
+      "downgrades": [
+        {
+          "factor": "imprecision",
+          "severity": 1,
+          "reason": "Pocos estudios (N=0)"
+        }
+      ],
+      "upgrades": [],
+      "final_rating": "moderate",
+      "total_downgrades": 1,
+      "total_upgrades": 0,
+      "recommendation_strength": "weak",
+      "recommendation_rationale": "Evidencia muy limitada (moderate), no se puede recomendar con confianza",
+      "confidence_statement": "Moderadamente confiado; el efecto real puede ser sustancialmente diferente"
+    },
+    {
+      "claim_id": "C_septic",
+      "claim_text": "En subgrupo septic: efecto 1.09",
+      "study_design": "RCT",
+      "base_rating": "high",
+      "downgrades": [
+        {
+          "factor": "imprecision",
+          "severity": 1,
+          "reason": "Pocos estudios (N=0)"
+        }
+      ],
+      "upgrades": [],
+      "final_rating": "moderate",
+      "total_downgrades": 1,
+      "total_upgrades": 0,
+      "recommendation_strength": "weak",
+      "recommendation_rationale": "Evidencia muy limitada (moderate), no se puede recomendar con confianza",
+      "confidence_statement": "Moderadamente confiado; el efecto real puede ser sustancialmente diferente"
+    },
+    {
+      "claim_id": "C_COVID",
+      "claim_text": "En subgrupo COVID: efecto 0.99",
+      "study_design": "RCT",
+      "base_rating": "high",
+      "downgrades": [
+        {
+          "factor": "imprecision",
+          "severity": 1,
+          "reason": "Pocos estudios (N=0)"
+        }
+      ],
+      "upgrades": [],
+      "final_rating": "moderate",
+      "total_downgrades": 1,
+      "total_upgrades": 0,
+      "recommendation_strength": "weak",
+      "recommendation_rationale": "Evidencia muy limitada (moderate), no se puede recomendar con confianza",
+      "confidence_statement": "Moderadamente confiado; el efecto real puede ser sustancialmente diferente"
+    }
+  ],
+  "meta": {
+    "total_evaluated": 4,
+    "high": 0,
+    "moderate": 4,
+    "low": 0,
+    "very_low": 0,
+    "evaluation_date": "2026-10-06T17:41:55.955723"
+  }
+}

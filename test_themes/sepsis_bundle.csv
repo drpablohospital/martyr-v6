@@ -1,0 +1,5 @@
+study_id,author,year,n_i,n_c,events_i,events_c,effect_measure,rr,rr_ci_lower,rr_ci_upper,subgroup
+ARISE2014,ARISE,2014,798,804,183,166,RR,1.11,0.94,1.31,early
+ProCESS2014,ProCESS,2014,439,456,92,107,RR,0.89,0.72,1.11,early
+ARISE2019,ARISE,2019,1600,1600,340,360,RR,0.94,0.84,1.06,late
+PROCESS2020,PROCESS,2020,1200,1200,280,290,RR,0.97,0.87,1.08,late

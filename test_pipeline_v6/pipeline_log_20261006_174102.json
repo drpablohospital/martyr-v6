@@ -1,0 +1,73 @@
+[
+  {
+    "timestamp": "2026-10-06T17:41:02.541600",
+    "event": "pipeline_init",
+    "data": {
+      "topic": "Corticosteroides en Sepsis y COVID",
+      "pico": "P:Sepsis/COVID;I:Corticosteroides;C:Placebo;O:Mortalidad"
+    }
+  },
+  {
+    "timestamp": "2026-10-06T17:41:02.543191",
+    "event": "meta_analysis_complete",
+    "data": {
+      "k": 10,
+      "model": "DL",
+      "pooled_effect": 1.0263,
+      "ci_95": [
+        0.9546,
+        1.1033
+      ],
+      "se": 0.0369,
+      "z_value": 0.7025,
+      "p_value": 0.4824,
+      "heterogeneity": {
+        "Q": 14.7257,
+        "df": 9,
+        "p_Q": 0.0988,
+        "I2": 38.88,
+        "tau2": 0.0044,
+        "H": 1.2791
+      },
+      "weights": [
+        12.304818497521012,
+        5.482483790586086,
+        22.27942928839805,
+        15.741594931763453,
+        3.490241551555225,
+        4.126407061483666,
+        10.42802984913317,
+        2.350912296485756,
+        2.8037417236476943,
+        20.99234100942589
+      ],
+      "flags": [
+        "{'id': 'PI_CROSSES_NULL', 'level': 'yellow', 'value': '-0.1224 to 0.1742', 'rule': '95% PI cruza valor nulo', 'action': 'Reportar PI expl\u00edcitamente; el efecto no es generalizable'}"
+      ],
+      "studies": [
+        "AKIKI2016",
+        "ELAIN2016",
+        "STARRT2019",
+        "IDEAL2020",
+        "CORTICUS2017",
+        "HYPRESS2018",
+        "APROCCHSS2020",
+        "COIITSS2021",
+        "DOSCORT2022",
+        "RECOVERY2020"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-10-06T17:41:02.544939",
+    "event": "claim_extraction_complete",
+    "data": {
+      "claims_generated": 4,
+      "files": {
+        "claims_file": "test_pipeline_v6/claims/claims_extracted_20261006_174102.json",
+        "log_file": "test_pipeline_v6/claims/claims_extraction_log_20261006_174102.txt",
+        "mapping_file": "test_pipeline_v6/claims/claims_source_mapping_20261006_174102.csv"
+      }
+    }
+  }
+]

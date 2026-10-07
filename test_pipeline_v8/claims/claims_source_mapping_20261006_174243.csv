@@ -1,0 +1,11 @@
+claim_id,claim_text,study_id,pmid,effect_size,weight
+C001,RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía...,AKIKI2016,,0.98,
+C001,RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía...,ELAIN2016,,0.72,
+C001,RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía...,STARRT2019,,1.0,
+C001,RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía...,IDEAL2020,,1.01,
+C001,RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía...,CORTICUS2017,,1.18,
+C001,RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía...,HYPRESS2018,,1.08,
+C001,RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía...,APROCCHSS2020,,0.97,
+C001,RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía...,COIITSS2021,,1.14,
+C001,RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía...,DOSCORT2022,,1.16,
+C001,RRT temprana no tiene efecto significativo sobre levemente Mortalidad vs RRT tardía...,RECOVERY2020,,0.83,

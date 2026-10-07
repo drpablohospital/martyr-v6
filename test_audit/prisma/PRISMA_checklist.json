@@ -1,0 +1,260 @@
+{
+  "generated_at": "2026-09-24T21:50:46.698502",
+  "total_items": 31,
+  "verified": 4,
+  "not_verified": 27,
+  "items": [
+    {
+      "item": "1",
+      "section": "Title",
+      "description": "Identify the report as a systematic review.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "2",
+      "section": "Abstract",
+      "description": "See the PRISMA 2020 for Abstracts checklist.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "3a",
+      "section": "Rationale",
+      "description": "Describe the rationale for the review in the context of existing knowledge.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "3b",
+      "section": "Objectives",
+      "description": "Provide an explicit statement of the objective(s) or question(s) the review addresses.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "4a",
+      "section": "Eligibility criteria",
+      "description": "Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "4b",
+      "section": "Information sources",
+      "description": "Specify all databases, registers, websites, organisations, reference lists and other sources searched or consulted.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "4c",
+      "section": "Search strategy",
+      "description": "Present the full search strategies for all databases, registers and websites, including any filters and limits used.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "5",
+      "section": "Selection process",
+      "description": "Specify the methods used to decide whether a study met the inclusion criteria of the review.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "6a",
+      "section": "Data extraction",
+      "description": "Specify the methods used to extract data from reports.",
+      "status": "verified",
+      "evidence": "Log de calculos con formulas",
+      "notes": "",
+      "file_path": "test_audit/pooling/calculation_log.csv"
+    },
+    {
+      "item": "6b",
+      "section": "Data items",
+      "description": "List and define all variables for which data were sought.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "7",
+      "section": "Risk of bias",
+      "description": "Specify the methods used to assess risk of bias in the included studies.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "8a",
+      "section": "Synthesis methods",
+      "description": "Describe the criteria and methods used to group studies for synthesis.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "8b",
+      "section": "Effect measures",
+      "description": "Specify the effect measure(s) used in the synthesis.",
+      "status": "verified",
+      "evidence": "Medida de efecto: RR con IC 95%",
+      "notes": "",
+      "file_path": "test_audit/pooling/pooled_results.json"
+    },
+    {
+      "item": "8c",
+      "section": "Synthesis methods",
+      "description": "Describe the methods used to handle missing data.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "8d",
+      "section": "Synthesis methods",
+      "description": "Describe any methods used to synthesise results.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "8e",
+      "section": "Certainty assessment",
+      "description": "Describe any methods used to assess certainty of evidence.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "9",
+      "section": "Study selection",
+      "description": "Give the number of studies screened, assessed for eligibility, and included in the review.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "10",
+      "section": "Study characteristics",
+      "description": "Cite each included study and present its characteristics.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "11",
+      "section": "Risk of bias",
+      "description": "Present assessments of risk of bias for each included study.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "12a",
+      "section": "Individual studies",
+      "description": "For all outcomes, present, for each study: (a) summary statistics.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "12b",
+      "section": "Individual studies",
+      "description": "For all outcomes, present, for each study: (b) synthesis results.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "13",
+      "section": "Synthesis",
+      "description": "Present results of all syntheses.",
+      "status": "verified",
+      "evidence": "Meta-analisis: k=4, RR=0.969",
+      "notes": "",
+      "file_path": "test_audit/pooling/pooled_results.json"
+    },
+    {
+      "item": "14",
+      "section": "Reporting biases",
+      "description": "Assess the risk of bias due to missing results.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "15",
+      "section": "Certainty of evidence",
+      "description": "Assess the certainty of the body of evidence.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "16",
+      "section": "Discussion",
+      "description": "Discuss the limitations of the review process and the evidence.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "17",
+      "section": "Discussion",
+      "description": "Discuss the implications for practice, policy, and future research.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "18",
+      "section": "Registration",
+      "description": "Provide registration information for the review.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "19",
+      "section": "Protocol",
+      "description": "Indicate where the review protocol can be accessed.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "20",
+      "section": "Support",
+      "description": "Describe sources of financial or non-financial support.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "21",
+      "section": "Competing interests",
+      "description": "Declare any competing interests of review authors.",
+      "status": "not_verified",
+      "evidence": null,
+      "notes": ""
+    },
+    {
+      "item": "22",
+      "section": "Data availability",
+      "description": "Report which of the following are publicly available and where.",
+      "status": "verified",
+      "evidence": "Datos disponibles: 3 archivos",
+      "notes": "",
+      "file_path": "test_audit/pooling"
+    }
+  ]
+}

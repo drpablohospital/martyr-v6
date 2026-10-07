@@ -1,0 +1,222 @@
+{
+  "topic": "Timing RRT in AKI",
+  "timestamp": "20261006_174021",
+  "meta_analysis": {
+    "k": 4,
+    "model": "DL",
+    "pooled_effect": 0.9686,
+    "ci_95": [
+      0.8824,
+      1.0632
+    ],
+    "se": 0.0475,
+    "z_value": -0.6712,
+    "p_value": 0.5021,
+    "heterogeneity": {
+      "Q": 5.2473,
+      "df": 3,
+      "p_Q": 0.1546,
+      "I2": 42.83,
+      "tau2": 0.0038,
+      "H": 1.3225
+    },
+    "weights": [
+      21.592543942144285,
+      9.323143534801213,
+      41.009544716299914,
+      28.07476780675459
+    ],
+    "flags": [
+      "{'id': 'WEIGHT_DOMINANCE', 'level': 'yellow', 'value': 41.0095, 'rule': 'Un estudio > 30% del peso', 'action': 'Verificar sensibilidad sin STARRT2019; reportar como limitaci\u00f3n'}",
+      "{'id': 'PI_CROSSES_NULL', 'level': 'yellow', 'value': '-0.184 to 0.1202', 'rule': '95% PI cruza valor nulo', 'action': 'Reportar PI expl\u00edcitamente; el efecto no es generalizable'}"
+    ],
+    "studies": [
+      "AKIKI2016",
+      "ELAIN2016",
+      "STARRT2019",
+      "IDEAL2020"
+    ]
+  },
+  "claims": {
+    "claims": [
+      {
+        "claim_id": "C001",
+        "claim_text": "RRT temprana no tiene efecto significativo sobre  Mortalidad vs RRT tard\u00eda",
+        "claim_type": "efficacy",
+        "direction": "no_difference",
+        "magnitude": "uncertain",
+        "pooled_effect": 0.9858608366617616,
+        "supporting_studies": [
+          {
+            "study_id": "AKIKI2016",
+            "pmid": "",
+            "author": "Gaudry",
+            "effect_size": 0.98,
+            "ci_lower": 0.83,
+            "ci_upper": 1.16,
+            "n_total": 619.0
+          },
+          {
+            "study_id": "ELAIN2016",
+            "pmid": "",
+            "author": "Zarbock",
+            "effect_size": 0.72,
+            "ci_lower": 0.55,
+            "ci_upper": 0.95,
+            "n_total": 231.0
+          },
+          {
+            "study_id": "STARRT2019",
+            "pmid": "",
+            "author": "STARRT-AKI",
+            "effect_size": 1.0,
+            "ci_lower": 0.92,
+            "ci_upper": 1.09,
+            "n_total": 2927.0
+          },
+          {
+            "study_id": "IDEAL2020",
+            "pmid": "",
+            "author": "IDEAL-ICU",
+            "effect_size": 1.01,
+            "ci_lower": 0.88,
+            "ci_upper": 1.16,
+            "n_total": 980.0
+          }
+        ],
+        "n_supporting": 4,
+        "consistency_score": 0.7,
+        "clinical_significance": "low",
+        "pipeline_metadata": {
+          "i2": 42.83,
+          "p_q": 0.1546,
+          "model_used": "DL",
+          "total_studies": 4
+        },
+        "heterogeneity": {
+          "I2": 42.83,
+          "p": 0.1546
+        },
+        "publication_bias": {}
+      }
+    ],
+    "meta": {
+      "total_claims": 1,
+      "total_studies_analyzed": 4,
+      "extraction_date": "2026-10-06T17:40:21.648497",
+      "version": "1.0"
+    }
+  },
+  "claim_grade": {
+    "claim_grades": [
+      {
+        "claim_id": "C001",
+        "claim_text": "RRT temprana no tiene efecto significativo sobre  Mortalidad vs RRT tard\u00eda",
+        "study_design": "RCT",
+        "base_rating": "high",
+        "downgrades": [
+          {
+            "factor": "inconsistency",
+            "severity": 1,
+            "reason": "Inconsistencia moderada (consistencia=70%, I\u00b2=42.83%)"
+          }
+        ],
+        "upgrades": [],
+        "final_rating": "moderate",
+        "total_downgrades": 1,
+        "total_upgrades": 0,
+        "recommendation_strength": "conditional",
+        "recommendation_rationale": "Evidencia moderate sugiere beneficio pero con incertidumbre",
+        "confidence_statement": "Moderadamente confiado; el efecto real puede ser sustancialmente diferente"
+      }
+    ],
+    "meta": {
+      "total_evaluated": 1,
+      "high": 0,
+      "moderate": 1,
+      "low": 0,
+      "very_low": 0,
+      "evaluation_date": "2026-10-06T17:40:21.656793"
+    }
+  },
+  "subgroup": {
+    "covariates_analyzed": [
+      "intervention",
+      "control",
+      "outcome",
+      "subgroup"
+    ],
+    "results": {
+      "covariate_results": {
+        "intervention": {
+          "covariate": "intervention",
+          "error": "Covariable 'intervention' tiene <2 niveles",
+          "levels": [
+            "RRT temprana"
+          ]
+        },
+        "control": {
+          "covariate": "control",
+          "error": "Covariable 'control' tiene <2 niveles",
+          "levels": [
+            "RRT tard\u00eda"
+          ]
+        },
+        "outcome": {
+          "covariate": "outcome",
+          "error": "Covariable 'outcome' tiene <2 niveles",
+          "levels": [
+            "Mortalidad"
+          ]
+        },
+        "subgroup": {
+          "covariate": "subgroup",
+          "error": "Covariable 'subgroup' tiene <2 niveles",
+          "levels": [
+            "early"
+          ]
+        }
+      },
+      "summary": {
+        "total_covariates": 4,
+        "significant_interactions": 0,
+        "non_significant": 4
+      }
+    },
+    "files": {
+      "json": "test_pipeline_v5/subgroup/subgroup_analysis_20261006_174021.json",
+      "tables": [
+        "test_pipeline_v5/subgroup/subgroup_intervention_20261006_174021.md",
+        "test_pipeline_v5/subgroup/subgroup_control_20261006_174021.md",
+        "test_pipeline_v5/subgroup/subgroup_outcome_20261006_174021.md",
+        "test_pipeline_v5/subgroup/subgroup_subgroup_20261006_174021.md"
+      ]
+    }
+  },
+  "publication_bias": {
+    "status": "placeholder",
+    "message": "Requires effect standard errors"
+  },
+  "grade": {
+    "rating": "low",
+    "explanation": "Dise\u00f1o base: RCT\nCerteza inicial: high\n\nFactores que reducen certeza:\n  - inconsistency: I\u00b2 = 42.83% (-1)\n  - imprecision: Intervalo de confianza cruza el valor nulo (-1)\n\nCerteza final: low"
+  },
+  "amstar": {
+    "rating": {
+      "rating": "high",
+      "rating_display": "Alta calidad",
+      "critical_flaws": 0,
+      "critical_flaw_codes": [],
+      "non_critical_flaws": 1,
+      "non_critical_flaw_codes": [
+        "C16"
+      ],
+      "total_criteria_evaluated": 16,
+      "recommendation": "Revisi\u00f3n confiable. Resultados pueden guiar pr\u00e1ctica cl\u00ednica."
+    },
+    "report_file": "test_pipeline_v5/amstar2/amstar2_report_20261006_174021.json",
+    "markdown_file": "test_pipeline_v5/amstar2/amstar2_table_20261006_174021.md"
+  },
+  "manuscript": "test_pipeline_v5/manuscript_20261006_174021.md",
+  "output_dir": "test_pipeline_v5"
+}

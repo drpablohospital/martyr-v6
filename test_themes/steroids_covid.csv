@@ -1,0 +1,5 @@
+study_id,author,year,n_i,n_c,events_i,events_c,effect_measure,rr,rr_ci_lower,rr_ci_upper,subgroup
+NICE2018,NICE,2018,500,500,45,78,RR,0.58,0.41,0.82,early
+UK2019,UK,2019,800,800,67,112,RR,0.60,0.45,0.79,early
+USA2020,USA,2020,1200,1200,89,156,RR,0.57,0.45,0.72,early
+CANADA2021,CANADA,2021,600,600,52,89,RR,0.58,0.43,0.79,early

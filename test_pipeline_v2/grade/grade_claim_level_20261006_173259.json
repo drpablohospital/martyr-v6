@@ -1,0 +1,26 @@
+{
+  "claim_grades": [
+    {
+      "claim_id": "C001",
+      "claim_text": "RRT temprana no tiene efecto significativo sobre  Mortalidad vs RRT tardía",
+      "study_design": "RCT",
+      "base_rating": "high",
+      "downgrades": [],
+      "upgrades": [],
+      "final_rating": "high",
+      "total_downgrades": 0,
+      "total_upgrades": 0,
+      "recommendation_strength": "strong",
+      "recommendation_rationale": "Evidencia de alta calidad con efecto consistente",
+      "confidence_statement": "Muy confiado en que el efecto real está cerca del estimado"
+    }
+  ],
+  "meta": {
+    "total_evaluated": 1,
+    "high": 1,
+    "moderate": 0,
+    "low": 0,
+    "very_low": 0,
+    "evaluation_date": "2026-10-06T17:32:59.242428"
+  }
+}

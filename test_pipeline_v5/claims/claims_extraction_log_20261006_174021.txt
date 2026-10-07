@@ -1,0 +1,14 @@
+=== LOG DE EXTRACCIÓN DE AFIRMACIONES ===
+
+Fecha: 2026-10-06T17:40:21.648497
+Estudios analizados: 4
+Afirmaciones generadas: 1
+
+
+--- C001 ---
+Tipo: efficacy
+Afirmación: RRT temprana no tiene efecto significativo sobre  Mortalidad vs RRT tardía
+Dirección: no_difference
+Magnitud: uncertain
+Estudios de soporte: 4
+Consistencia: 0.70

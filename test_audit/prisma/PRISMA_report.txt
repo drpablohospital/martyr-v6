@@ -1,0 +1,110 @@
+======================================================================
+PRISMA 2020 CHECKLIST
+======================================================================
+
+Items verificados: 4/31
+
+⬜ Item 1 (Title)
+   Descripcion: Identify the report as a systematic review.
+
+⬜ Item 2 (Abstract)
+   Descripcion: See the PRISMA 2020 for Abstracts checklist.
+
+⬜ Item 3a (Rationale)
+   Descripcion: Describe the rationale for the review in the context of existing knowledge.
+
+⬜ Item 3b (Objectives)
+   Descripcion: Provide an explicit statement of the objective(s) or question(s) the review addresses.
+
+⬜ Item 4a (Eligibility criteria)
+   Descripcion: Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses.
+
+⬜ Item 4b (Information sources)
+   Descripcion: Specify all databases, registers, websites, organisations, reference lists and other sources searched or consulted.
+
+⬜ Item 4c (Search strategy)
+   Descripcion: Present the full search strategies for all databases, registers and websites, including any filters and limits used.
+
+⬜ Item 5 (Selection process)
+   Descripcion: Specify the methods used to decide whether a study met the inclusion criteria of the review.
+
+✅ Item 6a (Data extraction)
+   Descripcion: Specify the methods used to extract data from reports.
+   Evidencia: Log de calculos con formulas
+   Archivo: test_audit/pooling/calculation_log.csv
+
+⬜ Item 6b (Data items)
+   Descripcion: List and define all variables for which data were sought.
+
+⬜ Item 7 (Risk of bias)
+   Descripcion: Specify the methods used to assess risk of bias in the included studies.
+
+⬜ Item 8a (Synthesis methods)
+   Descripcion: Describe the criteria and methods used to group studies for synthesis.
+
+✅ Item 8b (Effect measures)
+   Descripcion: Specify the effect measure(s) used in the synthesis.
+   Evidencia: Medida de efecto: RR con IC 95%
+   Archivo: test_audit/pooling/pooled_results.json
+
+⬜ Item 8c (Synthesis methods)
+   Descripcion: Describe the methods used to handle missing data.
+
+⬜ Item 8d (Synthesis methods)
+   Descripcion: Describe any methods used to synthesise results.
+
+⬜ Item 8e (Certainty assessment)
+   Descripcion: Describe any methods used to assess certainty of evidence.
+
+⬜ Item 9 (Study selection)
+   Descripcion: Give the number of studies screened, assessed for eligibility, and included in the review.
+
+⬜ Item 10 (Study characteristics)
+   Descripcion: Cite each included study and present its characteristics.
+
+⬜ Item 11 (Risk of bias)
+   Descripcion: Present assessments of risk of bias for each included study.
+
+⬜ Item 12a (Individual studies)
+   Descripcion: For all outcomes, present, for each study: (a) summary statistics.
+
+⬜ Item 12b (Individual studies)
+   Descripcion: For all outcomes, present, for each study: (b) synthesis results.
+
+✅ Item 13 (Synthesis)
+   Descripcion: Present results of all syntheses.
+   Evidencia: Meta-analisis: k=4, RR=0.969
+   Archivo: test_audit/pooling/pooled_results.json
+
+⬜ Item 14 (Reporting biases)
+   Descripcion: Assess the risk of bias due to missing results.
+
+⬜ Item 15 (Certainty of evidence)
+   Descripcion: Assess the certainty of the body of evidence.
+
+⬜ Item 16 (Discussion)
+   Descripcion: Discuss the limitations of the review process and the evidence.
+
+⬜ Item 17 (Discussion)
+   Descripcion: Discuss the implications for practice, policy, and future research.
+
+⬜ Item 18 (Registration)
+   Descripcion: Provide registration information for the review.
+
+⬜ Item 19 (Protocol)
+   Descripcion: Indicate where the review protocol can be accessed.
+
+⬜ Item 20 (Support)
+   Descripcion: Describe sources of financial or non-financial support.
+
+⬜ Item 21 (Competing interests)
+   Descripcion: Declare any competing interests of review authors.
+
+✅ Item 22 (Data availability)
+   Descripcion: Report which of the following are publicly available and where.
+   Evidencia: Datos disponibles: 3 archivos
+   Archivo: test_audit/pooling
+
+======================================================================
+NOTA: Items no verificados requieren revision manual.
+El pipeline automatizado no cubre todos los items.
